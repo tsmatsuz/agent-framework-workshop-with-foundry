@@ -63,6 +63,38 @@ In each exercise, we also need another preparations and settings, but these addi
 
 > Note : By installing ```agent-framework```, the required sub-packages in Agent Framework are all installed. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
 
+## Validating Your Configuration
+
+Before running the notebooks, you can validate your configuration:
+
+```python
+from utils import validate_config
+validate_config()
+```
+
+Or from the command line:
+
+```bash
+python -m utils.validate_config
+```
+
+## Common Setup Mistakes
+
+| ❌ Wrong | ✅ Correct |
+|----------|-----------|
+| `https://xxx.openai.azure.com/...` | `https://xxx.services.ai.azure.com/api/projects/...` |
+| Azure OpenAI resource endpoint | Foundry **project** endpoint |
+
+**How to find the correct endpoint:**
+1. Go to [Azure Portal](https://portal.azure.com/) → your **Foundry project** resource (not the parent Foundry resource)
+2. Or open the **Microsoft Foundry Portal** dashboard for your project
+3. The endpoint is displayed on the overview/home page
+
+**Other common issues:**
+- Not logged into Azure CLI → Run `az login`
+- Model not deployed → Deploy a Responses API compatible model (gpt-4o, gpt-4.1, etc.) in your Foundry project
+- Wrong subscription → Ensure `az account show` displays the correct subscription
+
 ## Official samples
 
 The purpose of this repository is to provide step-by-step learning with clear explanation (background) to use fundamental Agent Framework functionalities with Microsoft Foundry (Foundry v2).
