@@ -34,8 +34,8 @@ pip install agent-framework --pre
 pip install azure-monitor-opentelemetry
 ```
 
-> Note : All source code in this repository is experimented by using Agent Framework version ```1.0.0rc4```. If it doesn't work in the latest version, please install the specific version as follows. (The version will be frequently updated, because it's now in preview.)  
-> ```pip install agent-framework-azure-ai==1.0.0rc4 agent-framework==1.0.0rc4 agent-framework-core==1.0.0rc4```
+> Note : All source code in this repository is experimented by using Agent Framework version ```1.0.0rc5```. If it doesn't work in the latest version, please install the specific version as follows. (The version will be frequently updated, because it's now in preview.)  
+> ```pip install agent-framework-azure-ai==1.0.0rc5 agent-framework==1.0.0rc5 agent-framework-core==1.0.0rc5```
 
 Throughtout this workshop, we'll use Azure CLI credential.  
 For this reason, install Azure CLI (```az``` command), and login to Azure by running ```az login``` command.
