@@ -1,7 +1,7 @@
 # Agent Framework (with Microsoft Foundry) workshop (Python)
 
-The purpose of this repository is to provide step-by-step learning to use fundamental Agent Framework functionalities with Microsoft Foundry (Foundry v2).  
-More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository.
+The purpose of this repository is to provide step-by-step learning to use fundamental Agent Framework functionalities on Microsoft Foundry (Foundry v2).  
+More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository. (This is for beginners.)
 
 1. [Getting started](./01_get_started.ipynb)
 2. [Trace Agent](./02_trace.ipynb)
@@ -13,6 +13,9 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 8. [Workflows](./08_workflow.ipynb)
 9. [Human-in-the-loop (HITL)](./09_human_in_the_loop.ipynb)
 10. [Hosted Agents in Microsoft Foundry](./10_hosted_agents.ipynb)
+
+Microsoft Agent Framework is a library that helps you build your agents, which provides unified programming that abstracts background clients - such as, Anthropic Claude, OpenAI, Microsoft Foundry, GitHub Copilot SDK, ...<br>
+This repository assumes that Agent Framework runs on Microsoft Foundry client, but what you've learned here can be directly applied to other clients as well. (For running Agent Framework on Foundry Local client, please see [here](https://github.com/tsmatsuz/foundry-local-workshop/blob/master/03_agent_framework.ipynb).)
 
 ## Prerequisites
 
@@ -62,10 +65,10 @@ Run notebooks.
 
 **Package version**
 
-All source code in this repository is experimented by using Agent Framework version ```1.0.0```.  
+All source code in this repository is experimented by using Agent Framework version ```1.2.0```.  
 If it doesn't work in the latest version, please install the specific version as follows.  
 
-```pip install agent-framework-foundry==1.0.0 agent-framework==1.0.0 agent-framework-core==1.0.0```
+```pip install agent-framework-foundry==1.2.0 agent-framework==1.2.0 agent-framework-core==1.2.0```
 
 **For production**
 
