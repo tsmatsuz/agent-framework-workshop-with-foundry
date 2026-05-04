@@ -1,4 +1,4 @@
-# Agent Framework (with Microsoft Foundry) workshop (Python)
+# Microsoft Agent Framework with Foundry - workshop (Python)
 
 The purpose of this repository is to provide step-by-step learning to use fundamental Agent Framework functionalities on Microsoft Foundry (Foundry v2).  
 More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository. (This is for beginners.)
