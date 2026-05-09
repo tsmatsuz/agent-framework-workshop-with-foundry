@@ -33,7 +33,7 @@ Install the required Python modules as follows.
 
 ```
 # required in all exercises
-pip install agent-framework --pre
+pip install agent-framework
 # required in lesson 2
 pip install azure-monitor-opentelemetry
 ```
@@ -65,10 +65,10 @@ Run notebooks.
 
 **Package version**
 
-All source code in this repository is experimented by using Agent Framework version ```1.2.0```.  
+All source code in this repository is experimented by using Agent Framework version ```1.3.0```.  
 If it doesn't work in the latest version, please install the specific version as follows.  
 
-```pip install agent-framework-foundry==1.2.0 agent-framework==1.2.0 agent-framework-core==1.2.0```
+```pip install agent-framework-foundry==1.3.0 agent-framework==1.3.0 agent-framework-core==1.3.0```
 
 **For production**
 
