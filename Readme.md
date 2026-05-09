@@ -5,10 +5,10 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 
 1. [Getting started](./01_get_started.ipynb)
 2. [Trace Agent](./02_trace.ipynb)
-3. [Thread (Conversation)](./03_session.ipynb)
+3. [Session (Conversation Thread)](./03_session.ipynb)
 4. [Hosted Tools](./04_hosted_tools.ipynb)
 5. [Foundry Tools](./05_foundry_tools.ipynb)
-6. [Memory and personalization (Context Provider/Memory Provider)](./06_memory.ipynb)
+6. [Memory and personalization](./06_memory.ipynb)
 7. [Agent Skills](./07_skills.ipynb)
 8. [Workflows](./08_workflow.ipynb)
 9. [Human-in-the-loop (HITL)](./09_human_in_the_loop.ipynb)
