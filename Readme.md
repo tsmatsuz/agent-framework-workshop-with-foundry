@@ -15,7 +15,11 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 10. [Hosted Agents in Microsoft Foundry](./10_hosted_agents.ipynb)
 
 Microsoft Agent Framework is a library that helps you build your agents, which provides unified programming that abstracts background clients - such as, Anthropic Claude, OpenAI, Microsoft Foundry, GitHub Copilot SDK, ...<br>
-This repository assumes that Agent Framework runs on Microsoft Foundry client, but what you've learned here can be directly applied to other clients as well. (For running Agent Framework on Foundry Local client, please see [here](https://github.com/tsmatsuz/foundry-local-workshop/blob/master/03_agent_framework.ipynb).)
+This repository assumes that Agent Framework runs on Microsoft Foundry client (which invokes Foundry SDK internally), but what you've learned here can be directly applied to other clients as well.
+
+![The architecture of your code with Agent Framework Foundry client](./assets/overall_arch.png)
+
+> Note : For running Agent Framework on Foundry Local client, please see [here](https://github.com/tsmatsuz/foundry-local-workshop/blob/master/03_agent_framework.ipynb).
 
 ## Prerequisites
 
