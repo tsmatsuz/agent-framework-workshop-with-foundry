@@ -69,10 +69,10 @@ Run notebooks.
 
 **Package version**
 
-All source code in this repository is experimented by using Agent Framework version ```1.3.0```.  
+All source code in this repository is experimented by using Agent Framework version ```1.6.0```.  
 If it doesn't work in the latest version, please install the specific version as follows.  
 
-```pip install agent-framework-foundry==1.3.0 agent-framework==1.3.0 agent-framework-core==1.3.0```
+```pip install agent-framework-foundry==1.6.0 agent-framework==1.6.0 agent-framework-core==1.6.0```
 
 **For production**
 
