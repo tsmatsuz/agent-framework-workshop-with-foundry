@@ -1,25 +1,25 @@
 # Microsoft Agent Framework with Foundry - workshop (Python)
 
-The purpose of this repository is to provide step-by-step learning to use fundamental Agent Framework functionalities on Microsoft Foundry (Foundry v2).  
+The purpose of this repository is to provide step-by-step learning to use fundamental Microsoft Agent Framework (MAF) functionalities on Microsoft Foundry (Foundry v2).  
 More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository. (This is for beginners.)
 
 1. [Getting started](./01_get_started.ipynb)
 2. [Trace Agent](./02_trace.ipynb)
 3. [Session (Conversation Thread)](./03_session.ipynb)
-4. [Hosted Tools](./04_hosted_tools.ipynb)
-5. [Foundry Tools](./05_foundry_tools.ipynb)
-6. [Memory and personalization](./06_memory.ipynb)
-7. [Agent Skills](./07_skills.ipynb)
+4. [Tools](./04_tools.ipynb)
+5. [Memory and personalization](./05_memory.ipynb)
+6. [Agent Skills](./06_skills.ipynb)
+7. [Harness Agent in MAF](./07_harness_agent.ipynb)
 8. [Workflows](./08_workflow.ipynb)
 9. [Human-in-the-loop (HITL)](./09_human_in_the_loop.ipynb)
 10. [Hosted Agents in Microsoft Foundry](./10_hosted_agents.ipynb)
 
-Microsoft Agent Framework is a library that helps you build your agents, which provides unified programming that abstracts background clients - such as, Anthropic Claude, OpenAI, Microsoft Foundry, GitHub Copilot SDK, ...<br>
-This repository assumes that Agent Framework runs on Microsoft Foundry client (which invokes Foundry SDK internally), but what you've learned here can be directly applied to other clients as well.
+Microsoft Agent Framework (MAF) is a library that helps you build your agents, which provides unified programming that abstracts background clients - such as, Anthropic Claude, OpenAI, Microsoft Foundry, GitHub Copilot SDK, ...<br>
+This repository assumes that Microsoft Agent Framework (MAF) runs on Microsoft Foundry client (which invokes Foundry SDK internally), but what you've learned here can be directly applied to other clients as well.
 
-![The architecture of your code with Agent Framework Foundry client](./assets/overall_arch.png)
+![The architecture of your code with Microsoft Agent Framework Foundry client](./assets/overall_arch.png)
 
-> Note : For running Agent Framework on Foundry Local client, please see [here](https://github.com/tsmatsuz/foundry-local-workshop/blob/master/03_agent_framework.ipynb).
+> Note : For running Microsoft Agent Framework on Foundry Local client, please see [here](https://github.com/tsmatsuz/foundry-local-workshop/blob/master/03_agent_framework.ipynb).
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ pip install agent-framework
 pip install azure-monitor-opentelemetry
 ```
 
-> Note : By installing ```agent-framework```, the required sub-packages in Agent Framework are all installed. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
+> Note : With ```agent-framework``` installation, the required sub-packages in Microsoft Agent Framework are all installed together. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
 
 Throughout this workshop, we'll use Azure CLI credential.  
 For this reason, install Azure CLI (```az``` command), and login to Azure by running ```az login``` command.
@@ -69,10 +69,10 @@ Run notebooks.
 
 **Package version**
 
-All source code in this repository is experimented by using Agent Framework version ```1.6.0```.  
+All source code in this repository is experimented by using Microsoft Agent Framework version ```1.7.0```.  
 If it doesn't work in the latest version, please install the specific version as follows.  
 
-```pip install agent-framework-foundry==1.6.0 agent-framework==1.6.0 agent-framework-core==1.6.0```
+```pip install agent-framework-foundry==1.7.0 agent-framework==1.7.0 agent-framework-core==1.7.0```
 
 **For production**
 
