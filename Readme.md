@@ -1,21 +1,22 @@
 # Microsoft Agent Framework with Foundry - workshop (Python)
 
-The purpose of this repository is to provide step-by-step learning to use fundamental Microsoft Agent Framework (MAF) functionalities on Microsoft Foundry (Foundry v2).  
-More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository. (This is for beginners.)
+This repository provides end-to-end tutorials for Microsoft Agent Framework (MAF) running on Microsoft Foundry (Foundry v2).<br>
+More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository. (This repository is for beginners.)
 
 1. [Getting started](./01_get_started.ipynb)
 2. [Trace Agent](./02_trace.ipynb)
 3. [Session (Conversation Thread)](./03_session.ipynb)
 4. [Tools](./04_tools.ipynb)
-5. [Memory and personalization](./05_memory.ipynb)
-6. [Agent Skills](./06_skills.ipynb)
-7. [Harness Agent in MAF](./07_harness_agent.ipynb)
-8. [Workflows](./08_workflow.ipynb)
-9. [Human-in-the-loop (HITL)](./09_human_in_the_loop.ipynb)
-10. [Hosted Agents in Microsoft Foundry](./10_hosted_agents.ipynb)
+5. [Knowledge (Foundry IQ)](./05_knowledge.ipynb)
+6. [Memory and personalization](./06_memory.ipynb)
+7. [Agent Skills](./07_skills.ipynb)
+8. [Harness Agent in MAF](./08_harness_agent.ipynb)
+9. [Workflows](./09_workflow.ipynb)
+10. [Human-in-the-loop (HITL)](./10_human_in_the_loop.ipynb)
+11. [Hosted Agents in Microsoft Foundry](./11_hosted_agents.ipynb)
 
-Microsoft Agent Framework (MAF) is a library that helps you build your agents, which provides unified programming that abstracts background clients - such as, Anthropic Claude, OpenAI, Microsoft Foundry, GitHub Copilot SDK, ...<br>
-This repository assumes that Microsoft Agent Framework (MAF) runs on Microsoft Foundry client (which invokes Foundry SDK internally), but what you've learned here can be directly applied to other clients as well.
+Microsoft Agent Framework (MAF) is a library to help you build your own custom agents, in which you can use high-level functionalities that are independent of backend clients - such as, Anthropic Claude, OpenAI, Microsoft Foundry, GitHub Copilot SDK, ...<br>
+This repository assumes that Microsoft Agent Framework (MAF) runs on Microsoft Foundry client (which invokes Foundry SDK internally), but what you'll learn here can be directly applied to other clients as well.
 
 ![The architecture of your code with Microsoft Agent Framework Foundry client](./assets/overall_arch.png)
 
@@ -63,7 +64,7 @@ For ```FOUNDRY_MODEL```, please set the deployment name of the model you have ju
 Run notebooks.
 
 > Note : In each exercise, we might need other preparations and settings, but these additional settings are written in each exercise.  
-> (Especially, in Lesson 10, we also need ```azd``` CLI command installation. See [Lesson10](./10_hosted_agents.ipynb) for details.)
+> (Especially, in Lesson 11, we also need ```azd``` CLI command installation. See [Lesson11](./11_hosted_agents.ipynb) for details.)
 
 ## General notes
 
