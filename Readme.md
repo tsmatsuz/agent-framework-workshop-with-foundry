@@ -48,6 +48,10 @@ pip install azure-monitor-opentelemetry
 Throughout this workshop, we'll use Azure CLI credential.  
 For this reason, install Azure CLI (```az``` command), and login to Azure by running ```az login``` command.
 
+```
+az login
+```
+
 > Note : You cannot use API key in new ```azure-ai-projects```. (See [here](https://learn.microsoft.com/en-us/answers/questions/5587848/how-to-use-api-key-in-azure-ai-foundry).) Use Entra ID users (or service principal) for credentials in Microsoft Foundry.
 
 Clone this repository in your working environment as follows.
