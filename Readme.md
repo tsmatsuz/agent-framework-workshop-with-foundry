@@ -1,4 +1,4 @@
-# Microsoft Agent Framework with Foundry - workshop (Python)
+# Microsoft Agent Framework with Microsoft Foundry (Python)
 
 This repository provides end-to-end tutorials for Microsoft Agent Framework (MAF) running on Microsoft Foundry (Foundry v2).<br>
 More advanced topics - such as, multi-agent design patterns, custom objects, etc - are out of scope in this repository. (This repository is for beginners.)
