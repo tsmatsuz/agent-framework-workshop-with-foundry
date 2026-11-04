@@ -32,7 +32,7 @@ You will find that this operation creates 2 resources in Microsoft Azure - Found
 Next, go to Microsoft Foundry Portal for Foundry project you have just created.  
 In this workshop, we need new Foundry v2 project, not v1 project. So enable **"New Foundry"** (change the toggle for "New Foundry") in Foundry Portal.
 
-In Foundry Portal (new portal), deploy Azure OpenAI model which is supported in Azure OpenAI Responses API. (See [here](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key#model-support) for the supported models.)
+In Foundry Portal (new portal), deploy model which is supported in Foundry Responses API - such as, OpenAI, DeepSeek, Grok, etc. (See [here](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/generate-responses).)
 
 Install the required Python modules as follows.
 
